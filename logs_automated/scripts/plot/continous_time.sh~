@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{print NR-1 " " $2}' $1 > probs/continous/$1-mod
