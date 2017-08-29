@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33323
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  17.6 MBytes   147 Mbits/sec
+[  4]  1.0- 2.0 sec  19.0 MBytes   160 Mbits/sec
+[  4]  2.0- 3.0 sec  19.3 MBytes   162 Mbits/sec
+[  4]  3.0- 4.0 sec  19.6 MBytes   164 Mbits/sec
+[  4]  4.0- 5.0 sec  19.2 MBytes   161 Mbits/sec
+[  4]  5.0- 6.0 sec  19.0 MBytes   159 Mbits/sec
+[  4]  6.0- 7.0 sec  19.2 MBytes   161 Mbits/sec
+[  4]  7.0- 8.0 sec  19.2 MBytes   161 Mbits/sec
+[  4]  8.0- 9.0 sec  19.3 MBytes   162 Mbits/sec
+[  4]  9.0-10.0 sec  19.3 MBytes   162 Mbits/sec
+[  4]  0.0-10.3 sec   196 MBytes   160 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33324
+[  5]  0.0- 1.0 sec  17.6 MBytes   148 Mbits/sec
+[  5]  1.0- 2.0 sec  18.6 MBytes   156 Mbits/sec
+[  5]  2.0- 3.0 sec  17.9 MBytes   150 Mbits/sec
+[  5]  3.0- 4.0 sec  17.5 MBytes   147 Mbits/sec
+[  5]  4.0- 5.0 sec  17.0 MBytes   143 Mbits/sec
+[  5]  5.0- 6.0 sec  17.4 MBytes   146 Mbits/sec
+[  5]  6.0- 7.0 sec  14.8 MBytes   124 Mbits/sec
+[  5]  7.0- 8.0 sec  16.1 MBytes   135 Mbits/sec
+[  5]  8.0- 9.0 sec  16.8 MBytes   141 Mbits/sec
+[  5]  9.0-10.0 sec  16.3 MBytes   137 Mbits/sec
+[  5]  0.0-10.2 sec   174 MBytes   143 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33325
+[  4]  0.0- 1.0 sec  16.2 MBytes   136 Mbits/sec
+[  4]  1.0- 2.0 sec  16.7 MBytes   140 Mbits/sec
+[  4]  2.0- 3.0 sec  15.7 MBytes   132 Mbits/sec
+[  4]  3.0- 4.0 sec  17.9 MBytes   150 Mbits/sec
+[  4]  4.0- 5.0 sec  17.0 MBytes   143 Mbits/sec
+[  4]  5.0- 6.0 sec  16.3 MBytes   137 Mbits/sec
+[  4]  6.0- 7.0 sec  17.6 MBytes   147 Mbits/sec
+[  4]  7.0- 8.0 sec  17.4 MBytes   146 Mbits/sec
+[  4]  8.0- 9.0 sec  16.7 MBytes   140 Mbits/sec
+[  4]  9.0-10.0 sec  20.4 MBytes   171 Mbits/sec
+[  4]  0.0-10.0 sec   173 MBytes   144 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33326
+[  5]  0.0- 1.0 sec  16.8 MBytes   141 Mbits/sec
+[  5]  1.0- 2.0 sec  17.3 MBytes   145 Mbits/sec
+[  5]  2.0- 3.0 sec  17.2 MBytes   144 Mbits/sec
+[  5]  3.0- 4.0 sec  18.0 MBytes   151 Mbits/sec
+[  5]  4.0- 5.0 sec  17.9 MBytes   150 Mbits/sec
+[  5]  5.0- 6.0 sec  16.9 MBytes   142 Mbits/sec
+[  5]  6.0- 7.0 sec  18.3 MBytes   153 Mbits/sec
+[  5]  7.0- 8.0 sec  17.1 MBytes   143 Mbits/sec
+[  5]  8.0- 9.0 sec  17.5 MBytes   147 Mbits/sec
+[  5]  9.0-10.0 sec  16.0 MBytes   134 Mbits/sec
+[  5]  0.0-10.1 sec   176 MBytes   146 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33327
+[  4]  0.0- 1.0 sec  17.3 MBytes   145 Mbits/sec
+[  4]  1.0- 2.0 sec  18.6 MBytes   156 Mbits/sec
+[  4]  2.0- 3.0 sec  17.7 MBytes   148 Mbits/sec
+[  4]  3.0- 4.0 sec  18.7 MBytes   157 Mbits/sec
+[  4]  4.0- 5.0 sec  16.1 MBytes   135 Mbits/sec
+[  4]  5.0- 6.0 sec  18.6 MBytes   156 Mbits/sec
+[  4]  6.0- 7.0 sec  18.4 MBytes   154 Mbits/sec
+[  4]  7.0- 8.0 sec  16.9 MBytes   142 Mbits/sec
+[  4]  8.0- 9.0 sec  16.7 MBytes   140 Mbits/sec
+[  4]  9.0-10.0 sec  15.8 MBytes   132 Mbits/sec
+[  4]  0.0-10.2 sec   180 MBytes   149 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33328
+[  5]  0.0- 1.0 sec  17.1 MBytes   144 Mbits/sec
+[  5]  1.0- 2.0 sec  17.4 MBytes   146 Mbits/sec
+[  5]  2.0- 3.0 sec  19.1 MBytes   161 Mbits/sec
+[  5]  3.0- 4.0 sec  18.9 MBytes   159 Mbits/sec
+[  5]  4.0- 5.0 sec  17.7 MBytes   148 Mbits/sec
+[  5]  5.0- 6.0 sec  16.2 MBytes   136 Mbits/sec
+[  5]  6.0- 7.0 sec  18.5 MBytes   155 Mbits/sec
+[  5]  7.0- 8.0 sec  17.8 MBytes   149 Mbits/sec
+[  5]  8.0- 9.0 sec  16.9 MBytes   142 Mbits/sec
+[  5]  9.0-10.0 sec  19.1 MBytes   160 Mbits/sec
+[  5]  0.0-10.1 sec   182 MBytes   150 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33329
+[  4]  0.0- 1.0 sec  17.8 MBytes   149 Mbits/sec
+[  4]  1.0- 2.0 sec  19.3 MBytes   162 Mbits/sec
+[  4]  2.0- 3.0 sec  18.9 MBytes   158 Mbits/sec
+[  4]  3.0- 4.0 sec  18.7 MBytes   157 Mbits/sec
+[  4]  4.0- 5.0 sec  17.9 MBytes   151 Mbits/sec
+[  4]  5.0- 6.0 sec  18.3 MBytes   154 Mbits/sec
+[  4]  6.0- 7.0 sec  16.8 MBytes   141 Mbits/sec
+[  4]  7.0- 8.0 sec  18.3 MBytes   153 Mbits/sec
+[  4]  8.0- 9.0 sec  17.0 MBytes   143 Mbits/sec
+[  4]  9.0-10.0 sec  17.9 MBytes   150 Mbits/sec
+[  4]  0.0-10.1 sec   182 MBytes   151 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33330
+[  5]  0.0- 1.0 sec  18.0 MBytes   151 Mbits/sec
+[  5]  1.0- 2.0 sec  19.4 MBytes   162 Mbits/sec
+[  5]  2.0- 3.0 sec  19.1 MBytes   161 Mbits/sec
+[  5]  3.0- 4.0 sec  18.6 MBytes   156 Mbits/sec
+[  5]  4.0- 5.0 sec  19.3 MBytes   162 Mbits/sec
+[  5]  5.0- 6.0 sec  18.2 MBytes   152 Mbits/sec
+[  5]  6.0- 7.0 sec  17.7 MBytes   148 Mbits/sec
+[  5]  7.0- 8.0 sec  18.1 MBytes   152 Mbits/sec
+[  5]  8.0- 9.0 sec  17.6 MBytes   147 Mbits/sec
+[  5]  9.0-10.0 sec  18.2 MBytes   153 Mbits/sec
+[  5]  0.0-10.0 sec   185 MBytes   154 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33331
+[  4]  0.0- 1.0 sec  18.0 MBytes   151 Mbits/sec
+[  4]  1.0- 2.0 sec  19.2 MBytes   161 Mbits/sec
+[  4]  2.0- 3.0 sec  19.1 MBytes   160 Mbits/sec
+[  4]  3.0- 4.0 sec  19.5 MBytes   163 Mbits/sec
+[  4]  4.0- 5.0 sec  19.3 MBytes   162 Mbits/sec
+[  4]  5.0- 6.0 sec  19.1 MBytes   160 Mbits/sec
+[  4]  6.0- 7.0 sec  19.6 MBytes   164 Mbits/sec
+[  4]  7.0- 8.0 sec  17.0 MBytes   142 Mbits/sec
+[  4]  8.0- 9.0 sec  17.8 MBytes   149 Mbits/sec
+[  4]  9.0-10.0 sec  17.8 MBytes   149 Mbits/sec
+[  4]  0.0-10.2 sec   190 MBytes   156 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33332
+[  5]  0.0- 1.0 sec  17.8 MBytes   149 Mbits/sec
+[  5]  1.0- 2.0 sec  19.3 MBytes   162 Mbits/sec
+[  5]  2.0- 3.0 sec  19.0 MBytes   159 Mbits/sec
+[  5]  3.0- 4.0 sec  18.4 MBytes   154 Mbits/sec
+[  5]  4.0- 5.0 sec  19.8 MBytes   166 Mbits/sec
+[  5]  5.0- 6.0 sec  19.3 MBytes   162 Mbits/sec
+[  5]  6.0- 7.0 sec  18.4 MBytes   154 Mbits/sec
+[  5]  7.0- 8.0 sec  18.6 MBytes   156 Mbits/sec
+[  5]  8.0- 9.0 sec  18.2 MBytes   153 Mbits/sec
+[  5]  9.0-10.0 sec  19.0 MBytes   159 Mbits/sec
+[  5]  0.0-10.1 sec   189 MBytes   157 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33333
+[  4]  0.0- 1.0 sec  17.3 MBytes   145 Mbits/sec
+[  4]  1.0- 2.0 sec  19.1 MBytes   160 Mbits/sec
+[  4]  2.0- 3.0 sec  18.2 MBytes   153 Mbits/sec
+[  4]  3.0- 4.0 sec  18.9 MBytes   159 Mbits/sec
+[  4]  4.0- 5.0 sec  18.3 MBytes   153 Mbits/sec
+[  4]  5.0- 6.0 sec  18.3 MBytes   154 Mbits/sec
+[  4]  6.0- 7.0 sec  19.2 MBytes   161 Mbits/sec
+[  4]  7.0- 8.0 sec  18.3 MBytes   154 Mbits/sec
+[  4]  8.0- 9.0 sec  17.7 MBytes   149 Mbits/sec
+[  4]  9.0-10.0 sec  18.7 MBytes   157 Mbits/sec
+[  4]  0.0-10.2 sec   188 MBytes   155 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33334
+[  5]  0.0- 1.0 sec  18.6 MBytes   156 Mbits/sec
+[  5]  1.0- 2.0 sec  19.0 MBytes   159 Mbits/sec
+[  5]  2.0- 3.0 sec  18.9 MBytes   159 Mbits/sec
+[  5]  3.0- 4.0 sec  19.6 MBytes   165 Mbits/sec
+[  5]  4.0- 5.0 sec  18.8 MBytes   158 Mbits/sec
+[  5]  5.0- 6.0 sec  18.8 MBytes   158 Mbits/sec
+[  5]  6.0- 7.0 sec  17.6 MBytes   148 Mbits/sec
+[  5]  7.0- 8.0 sec  19.0 MBytes   159 Mbits/sec
+[  5]  8.0- 9.0 sec  18.7 MBytes   157 Mbits/sec
+[  5]  9.0-10.0 sec  19.6 MBytes   165 Mbits/sec
+[  5]  0.0-10.0 sec   190 MBytes   158 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33335
+[  4]  0.0- 1.0 sec  18.2 MBytes   153 Mbits/sec
+[  4]  1.0- 2.0 sec  18.7 MBytes   157 Mbits/sec
+[  4]  2.0- 3.0 sec  19.2 MBytes   161 Mbits/sec
+[  4]  3.0- 4.0 sec  19.6 MBytes   165 Mbits/sec
+[  4]  4.0- 5.0 sec  18.2 MBytes   153 Mbits/sec
+[  4]  5.0- 6.0 sec  18.7 MBytes   157 Mbits/sec
+[  4]  6.0- 7.0 sec  17.9 MBytes   150 Mbits/sec
+[  4]  7.0- 8.0 sec  19.6 MBytes   164 Mbits/sec
+[  4]  8.0- 9.0 sec  19.4 MBytes   163 Mbits/sec
+[  4]  9.0-10.0 sec  17.7 MBytes   149 Mbits/sec
+[  4]  0.0-10.0 sec   188 MBytes   157 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33336
+[  5]  0.0- 1.0 sec  18.3 MBytes   154 Mbits/sec
+[  5]  1.0- 2.0 sec  19.5 MBytes   164 Mbits/sec
+[  5]  2.0- 3.0 sec  19.3 MBytes   162 Mbits/sec
+[  5]  3.0- 4.0 sec  19.4 MBytes   163 Mbits/sec
+[  5]  4.0- 5.0 sec  18.2 MBytes   153 Mbits/sec
+[  5]  5.0- 6.0 sec  19.0 MBytes   159 Mbits/sec
+[  5]  6.0- 7.0 sec  19.4 MBytes   163 Mbits/sec
+[  5]  7.0- 8.0 sec  19.2 MBytes   161 Mbits/sec
+[  5]  8.0- 9.0 sec  18.6 MBytes   156 Mbits/sec
+[  5]  9.0-10.0 sec  17.3 MBytes   145 Mbits/sec
+[  5]  0.0-10.1 sec   192 MBytes   159 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33337
+[  4]  0.0- 1.0 sec  18.2 MBytes   152 Mbits/sec
+[  4]  1.0- 2.0 sec  19.1 MBytes   160 Mbits/sec
+[  4]  2.0- 3.0 sec  19.5 MBytes   163 Mbits/sec
+[  4]  3.0- 4.0 sec  18.8 MBytes   157 Mbits/sec
+[  4]  4.0- 5.0 sec  18.9 MBytes   159 Mbits/sec
+[  4]  5.0- 6.0 sec  18.0 MBytes   151 Mbits/sec
+[  4]  6.0- 7.0 sec  19.5 MBytes   164 Mbits/sec
+[  4]  7.0- 8.0 sec  19.1 MBytes   160 Mbits/sec
+[  4]  8.0- 9.0 sec  18.0 MBytes   151 Mbits/sec
+[  4]  9.0-10.0 sec  18.2 MBytes   153 Mbits/sec
+[  4]  0.0-10.0 sec   188 MBytes   157 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33338
+[  5]  0.0- 1.0 sec  17.4 MBytes   146 Mbits/sec
+[  5]  1.0- 2.0 sec  19.3 MBytes   162 Mbits/sec
+[  5]  2.0- 3.0 sec  19.4 MBytes   163 Mbits/sec
+[  5]  3.0- 4.0 sec  18.6 MBytes   156 Mbits/sec
+[  5]  4.0- 5.0 sec  19.2 MBytes   161 Mbits/sec
+[  5]  5.0- 6.0 sec  19.3 MBytes   162 Mbits/sec
+[  5]  6.0- 7.0 sec  18.3 MBytes   154 Mbits/sec
+[  5]  7.0- 8.0 sec  19.0 MBytes   160 Mbits/sec
+[  5]  8.0- 9.0 sec  17.6 MBytes   147 Mbits/sec
+[  5]  9.0-10.0 sec  17.7 MBytes   148 Mbits/sec
+[  5]  0.0-10.1 sec   188 MBytes   156 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33339
+[  4]  0.0- 1.0 sec  17.7 MBytes   149 Mbits/sec
+[  4]  1.0- 2.0 sec  18.5 MBytes   155 Mbits/sec
+[  4]  2.0- 3.0 sec  18.2 MBytes   153 Mbits/sec
+[  4]  3.0- 4.0 sec  19.1 MBytes   161 Mbits/sec
+[  4]  4.0- 5.0 sec  17.8 MBytes   149 Mbits/sec
+[  4]  5.0- 6.0 sec  18.5 MBytes   155 Mbits/sec
+[  4]  6.0- 7.0 sec  17.2 MBytes   144 Mbits/sec
+[  4]  7.0- 8.0 sec  18.5 MBytes   155 Mbits/sec
+[  4]  8.0- 9.0 sec  17.8 MBytes   149 Mbits/sec
+[  4]  9.0-10.0 sec  17.3 MBytes   145 Mbits/sec
+[  4]  0.0-10.0 sec   182 MBytes   152 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33340
+[  5]  0.0- 1.0 sec  17.3 MBytes   145 Mbits/sec
+[  5]  1.0- 2.0 sec  19.1 MBytes   160 Mbits/sec
+[  5]  2.0- 3.0 sec  16.4 MBytes   137 Mbits/sec
+[  5]  3.0- 4.0 sec  19.6 MBytes   164 Mbits/sec
+[  5]  4.0- 5.0 sec  18.3 MBytes   153 Mbits/sec
+[  5]  5.0- 6.0 sec  18.2 MBytes   153 Mbits/sec
+[  5]  6.0- 7.0 sec  18.0 MBytes   151 Mbits/sec
+[  5]  7.0- 8.0 sec  18.7 MBytes   157 Mbits/sec
+[  5]  8.0- 9.0 sec  17.9 MBytes   150 Mbits/sec
+[  5]  9.0-10.0 sec  16.3 MBytes   137 Mbits/sec
+[  5]  0.0-10.2 sec   183 MBytes   151 Mbits/sec
+[  4] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33341
+[  4]  0.0- 1.0 sec  18.4 MBytes   154 Mbits/sec
+[  4]  1.0- 2.0 sec  17.4 MBytes   146 Mbits/sec
+[  4]  2.0- 3.0 sec  17.2 MBytes   145 Mbits/sec
+[  4]  3.0- 4.0 sec  18.5 MBytes   156 Mbits/sec
+[  4]  4.0- 5.0 sec  17.5 MBytes   147 Mbits/sec
+[  4]  5.0- 6.0 sec  17.7 MBytes   148 Mbits/sec
+[  4]  6.0- 7.0 sec  17.7 MBytes   148 Mbits/sec
+[  4]  7.0- 8.0 sec  17.0 MBytes   142 Mbits/sec
+[  4]  8.0- 9.0 sec  17.7 MBytes   148 Mbits/sec
+[  4]  9.0-10.0 sec  19.0 MBytes   159 Mbits/sec
+[  4]  0.0-10.0 sec   179 MBytes   150 Mbits/sec
+[  5] local 192.168.1.254 port 5001 connected with 10.0.0.10 port 33342
+[  5]  0.0- 1.0 sec  18.1 MBytes   152 Mbits/sec
+[  5]  1.0- 2.0 sec  18.5 MBytes   155 Mbits/sec
+[  5]  2.0- 3.0 sec  17.6 MBytes   148 Mbits/sec
+[  5]  3.0- 4.0 sec  18.5 MBytes   155 Mbits/sec
+[  5]  4.0- 5.0 sec  17.5 MBytes   147 Mbits/sec
+[  5]  5.0- 6.0 sec  16.6 MBytes   139 Mbits/sec
+[  5]  6.0- 7.0 sec  18.0 MBytes   151 Mbits/sec
+[  5]  7.0- 8.0 sec  17.3 MBytes   145 Mbits/sec
+[  5]  8.0- 9.0 sec  18.9 MBytes   159 Mbits/sec
+[  5]  9.0-10.0 sec  19.0 MBytes   159 Mbits/sec
+[  5]  0.0-10.1 sec   181 MBytes   151 Mbits/sec
