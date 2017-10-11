@@ -1,12 +1,24 @@
-Mean value for client_default_default.log is: 61.7644444444
-Standard Deviation value for client_default_default.log is: 13.2382049654
-Mean value for client_default_redundant.log is: 63.8155555556
-Standard Deviation value for client_default_redundant.log is: 8.07619835058
-Mean value for client_default_roundrobin.log is: 61.9955555556
-Standard Deviation value for client_default_roundrobin.log is: 12.9598322723
-Mean value for client_fullmesh_default.log is: 97.17
-Standard Deviation value for client_fullmesh_default.log is: 47.3992004693
-Mean value for client_fullmesh_redundant.log is: 65.1088888889
-Standard Deviation value for client_fullmesh_redundant.log is: 9.51937789751
-Mean value for client_fullmesh_roundrobin.log is: 106.784444444
-Standard Deviation value for client_fullmesh_roundrobin.log is: 40.9726902148
+Path Manager: default and Scheduler: default
+Mean value for is: 61.7644444444
+Standard Deviation value for is: 13.2382049654
+--------------------------------------------------
+Path Manager: default and Scheduler: redundant
+Mean value for is: 63.8155555556
+Standard Deviation value for is: 8.07619835058
+--------------------------------------------------
+Path Manager: default and Scheduler: roundrobin
+Mean value for is: 61.9955555556
+Standard Deviation value for is: 12.9598322723
+--------------------------------------------------
+Path Manager: fullmesh and Scheduler: default
+Mean value for is: 97.17
+Standard Deviation value for is: 47.3992004693
+--------------------------------------------------
+Path Manager: fullmesh and Scheduler: redundant
+Mean value for is: 65.1088888889
+Standard Deviation value for is: 9.51937789751
+--------------------------------------------------
+Path Manager: fullmesh and Scheduler: roundrobin
+Mean value for is: 106.784444444
+Standard Deviation value for is: 40.9726902148
+--------------------------------------------------
