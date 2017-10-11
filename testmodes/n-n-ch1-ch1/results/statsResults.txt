@@ -1,0 +1,12 @@
+Mean value for client_default_default.log is: 61.7644444444
+Standard Deviation value for client_default_default.log is: 13.2382049654
+Mean value for client_default_redundant.log is: 63.8155555556
+Standard Deviation value for client_default_redundant.log is: 8.07619835058
+Mean value for client_default_roundrobin.log is: 61.9955555556
+Standard Deviation value for client_default_roundrobin.log is: 12.9598322723
+Mean value for client_fullmesh_default.log is: 97.17
+Standard Deviation value for client_fullmesh_default.log is: 47.3992004693
+Mean value for client_fullmesh_redundant.log is: 65.1088888889
+Standard Deviation value for client_fullmesh_redundant.log is: 9.51937789751
+Mean value for client_fullmesh_roundrobin.log is: 106.784444444
+Standard Deviation value for client_fullmesh_roundrobin.log is: 40.9726902148
