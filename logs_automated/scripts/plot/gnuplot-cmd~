@@ -1,6 +1,0 @@
-set terminal png
-set tics font "Helvetica,10"
-set ylabel "Mbit/s"
-set xlabel "s"
-set output 'output.png'
-plot "server_def_def-mod" title "server-def-def" with linespoints
