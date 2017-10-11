@@ -1,0 +1,16 @@
+Path Manager: default and Scheduler: default
+Mean value for is: 54.0133333333
+Standard Deviation value for is: 13.5102250839
+--------------------------------------------------
+Path Manager: default and Scheduler: roundrobin
+Mean value for is: 52.6931111111
+Standard Deviation value for is: 15.2537729792
+--------------------------------------------------
+Path Manager: fullmesh and Scheduler: default
+Mean value for is: 53.9733333333
+Standard Deviation value for is: 9.5210627749
+--------------------------------------------------
+Path Manager: fullmesh and Scheduler: roundrobin
+Mean value for is: 49.5575555556
+Standard Deviation value for is: 15.2220631076
+--------------------------------------------------
