@@ -11,7 +11,7 @@ from mininet.cli import CLI
 from mininet.net import Mininet
 from mininet.link import TCLink
 from mininet.log import setLogLevel
-from mininet.node import RemoteController, OVSKernelSwitch
+from mininet.node import RemoteController, OVSKernelSwitch, OVSKernelAP
 
 
 def topology(pathmanager, scheduler):
@@ -22,7 +22,7 @@ def topology(pathmanager, scheduler):
     #  FOLDER_NAME = "n-n-ch1-ch11"
     "Create a network."
     net = Mininet(controller=RemoteController,
-                  link=TCLink, switch=OVSKernelSwitch)
+                  link=TCLink, switch=OVSKernelSwitch, accessPoint=OVSKernelAP)
     net.start()
     print "*** Creating nodes"
     sta1 = net.addStation(
@@ -31,8 +31,8 @@ def topology(pathmanager, scheduler):
     #                          protocols='OpenFlow10', ssid='ssid_ap2', mode='n', channel='1', position='55,20,0')
     # ap3 = net.addAccessPoint('ap3', mac='00:00:00:00:00:03', equipmentModel='TLWR740N',
     #                          protocols='OpenFlow10', ssid='ssid_ap3', mode='n', channel='6', position='50,11,0')
-    ap2 = net.addAccessPoint('ap2', mac='00:00:00:00:00:20', protocols='OpenFlow10', ssid='ssid_ap2', mode='n', channel='1', position='55,20,0')
-    ap3 = net.addAccessPoint('ap3', mac='00:00:00:00:00:30', protocols='OpenFlow10', ssid='ssid_ap3', mode='n', channel='11', position='50,11,0')
+    ap2 = net.addAccessPoint('ap2', protocols='OpenFlow10', ssid='ssid_ap2', mode='n', channel='1', position='55,20,0')
+    ap3 = net.addAccessPoint('ap3', protocols='OpenFlow10', ssid='ssid_ap3', mode='n', channel='6', position='50,11,0')
     h4 = net.addHost('h4', mac='00:00:00:00:00:04', ip='10.0.0.254/8')
     h5 = net.addHost('h5', mac='00:00:00:00:00:05', ip='192.168.0.254/24')
     # s6 = net.addSwitch('s6', mac='00:00:00:00:00:06', protocols='OpenFlow10')
@@ -48,8 +48,8 @@ def topology(pathmanager, scheduler):
     print "*** Associating and Creating links"
     net.addLink(ap2, sta1)
     net.addLink(ap3, sta1)
-    net.addLink(ap2, h4, bw=100)
-    net.addLink(ap3, h5, bw=100)  #
+    net.addLink(ap2, h4, bw=1000)
+    net.addLink(ap3, h5, bw=1000)  #
     # net.addLink(s6, h4, bw=1000)
     # net.addLink(s6, h5, bw=1000)  #
     # net.addLink(s6, s7, bw=1000)  #
