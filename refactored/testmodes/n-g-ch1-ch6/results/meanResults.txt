@@ -1,0 +1,6 @@
+AVG for file: client_default_default.log 62.26
+AVG for file: client_default_redundant.log 62.2978
+AVG for file: client_default_roundrobin.log 62.6242
+AVG for file: client_fullmesh_default.log 78.1667
+AVG for file: client_fullmesh_redundant.log 47.66
+AVG for file: client_fullmesh_roundrobin.log 77.1444
