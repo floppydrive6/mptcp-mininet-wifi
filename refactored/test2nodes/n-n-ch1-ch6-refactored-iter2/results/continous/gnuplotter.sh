@@ -9,7 +9,7 @@ Faculty of Computer Science, Electronics and Telecomunications
 ICT
 COMMENT
 
-CLIENT_FOLDER=client2
+CLIENT_FOLDER=client
 FILES=../$CLIENT_FOLDER/client_*
 for FILE in $FILES; do
 	sed -i '/mptcp/d' $FILE
