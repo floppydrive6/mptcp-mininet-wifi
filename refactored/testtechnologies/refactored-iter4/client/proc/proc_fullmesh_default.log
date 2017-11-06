@@ -1,2 +1,2 @@
   sl  loc_tok  rem_tok  v6 local_address                         remote_address                        st ns tx_queue rx_queue inode
-   0: 5CAF9334 F2BFB5FC  0 0A02A8C0:9A91                         FE01A8C0:1389                         01 03 00477BC0:00000000 143043
+   0: 55DFE943 FB5F413E  0 0A02A8C0:9AA1                         FE01A8C0:1389                         01 03 00473E2C:00000000 229202
