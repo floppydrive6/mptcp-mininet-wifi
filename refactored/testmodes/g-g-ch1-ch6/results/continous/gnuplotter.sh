@@ -1,4 +1,14 @@
 #!/bin/bash
+
+<<'COMMENT'
+MPTCP performance test
+created by:
+Grzegorz Przybylo
+AGH, University of Science and Technology in Cracow
+Faculty of Computer Science, Electronics and Telecomunications
+ICT
+COMMENT
+
 FILES=../client_*
 for FILE in $FILES; do
 	filename=$(basename $FILE)
