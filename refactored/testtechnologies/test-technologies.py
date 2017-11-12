@@ -4,7 +4,7 @@
 MPTCP performance test
 created by:
 Grzegorz Przybylo
-University of Science and Technology in Cracow
+AGH, University of Science and Technology in Cracow
 Faculty of Computer Science, Electronics and Telecomunications
 ICT
 """
@@ -71,7 +71,7 @@ def topology(pathmanager, scheduler):
     sta1.cmd('ifconfig sta1-eth2 192.168.2.10/24')
 
     sta1.cmd('ip route add default 10.0.0.254/8 via sta1-wlan0')
-    sta1.cmd('ip route add default 192.168.0.254/24 via sta1-wlan1')
+    sta1.cmd('ip route add default 192.168.0.254/24 via sta1-eth1')
     sta1.cmd('ip route add default 192.168.2.254/24 via sta1-eth2')
 
     sta1.cmd('ip rule add from 10.0.0.10 table 1')
@@ -207,7 +207,7 @@ def mptcpTest():
     # enable MPTCP
     os.system('sysctl -w net.mptcp.mptcp_enabled=1')
     # enable debug output, execute "dmesg" to read output
-    os.system('sysctl -w net.mptcp.mptcp_debug=1')
+    os.system('sysctl -w net.mptcp.mptcp_debug=0')
 
     scheduler = ["default", "roundrobin"]
     pathmanager = ["fullmesh"]
