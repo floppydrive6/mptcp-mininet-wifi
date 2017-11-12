@@ -15,17 +15,24 @@ import math
 
 
 def main(argv):
-    fileWithResults = "distanceAndBwAp2.txt"
+    fileWithIperf = argv[1]
+    fileWithPosition = argv[2]
+    whichAp = argv[3]
+    fileWithResults = "distanceAndBwAp" + whichAp + ".txt"
     try:
         os.remove(fileWithResults)
     except OSError:
         pass
-    fileWithIperf = argv[1]
-    fileWithPosition = argv[2]
     testDuration = 100
-    pos_x = 55.0
-    pos_y = 20.0
     #  ap2 - 55.0 , 20.0 ap3 - 50.0 , 11.0
+    if int(whichAp) == 3:
+        pos_x = 50.0
+        pos_y = 11.0
+    else:
+        pos_x = 55.0
+        pos_y = 20.0
+    print pos_x
+    print pos_y
     bandwidthTab = []
     positionTab = []
     distanceTab = []
@@ -53,4 +60,7 @@ def calcPos(posXA, posYA, posXB, posYB):
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    if len(sys.argv) == 4:
+        main(sys.argv)
+    else:
+        print "Please specify 3 arguments"
