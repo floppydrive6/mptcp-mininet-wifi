@@ -177,7 +177,7 @@ def mptcpTest():
     # enable MPTCP
     os.system('sysctl -w net.mptcp.mptcp_enabled=1')
     # enable debug output, execute "dmesg" to read output
-    os.system('sysctl -w net.mptcp.mptcp_debug=1')
+    os.system('sysctl -w net.mptcp.mptcp_debug=0')
 
     scheduler = ["default", "roundrobin"]
     pathmanager = ["default", "fullmesh"]
