@@ -4,7 +4,7 @@
 MPTCP performance test
 created by:
 Grzegorz Przybylo
-University of Science and Technology in Cracow
+AGH, University of Science and Technology in Cracow
 Faculty of Computer Science, Electronics and Telecomunications
 ICT
 """
@@ -131,9 +131,6 @@ def topology(pathmanager, scheduler):
 
     print "*** Running CLI"
     CLI(net)
-
-    # print "*** Running CLI"
-    # CLI(net)
 
     print "*** Stopping network"
     net.stop()
