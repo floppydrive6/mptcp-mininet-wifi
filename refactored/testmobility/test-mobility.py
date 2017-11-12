@@ -4,7 +4,7 @@
 MPTCP performance test
 created by:
 Grzegorz Przybylo
-University of Science and Technology in Cracow
+AGH, University of Science and Technology in Cracow
 Faculty of Computer Science, Electronics and Telecomunications
 ICT
 """
@@ -174,7 +174,7 @@ def mptcpTest():
     # enable MPTCP
     os.system('sysctl -w net.mptcp.mptcp_enabled=1')
     # enable debug output, execute "dmesg" to read output
-    os.system('sysctl -w net.mptcp.mptcp_debug=1')
+    os.system('sysctl -w net.mptcp.mptcp_debug=0')
 
     # scheduler = ["default", "roundrobin"]
     # pathmanager = ["default", "fullmesh"]
