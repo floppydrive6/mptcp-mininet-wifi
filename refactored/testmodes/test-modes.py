@@ -100,11 +100,6 @@ def topology(pathmanager, scheduler):
     # waiting till flows be registrated in POX controller
     sleep(10)
 
-    print """
-            ALERT!:
-            Because of bug connected with Mininet-WiFi CLI there is no CLI during running scripts in loop.
-            """
-
     name_postfix = pathmanager + '_' + scheduler
     # set path manager
     os.system('sysctl -w net.mptcp.mptcp_path_manager=' + pathmanager)
