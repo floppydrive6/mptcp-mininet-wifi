@@ -4,7 +4,7 @@
 calculating stats
 created by:
 Grzegorz Przybylo
-AGH, University of Science and Technology in Cracow
+AGH University of Science and Technology in Cracow
 Faculty of Computer Science, Electronics and Telecomunications
 ICT
 """
