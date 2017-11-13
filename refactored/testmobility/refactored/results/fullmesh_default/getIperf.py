@@ -15,7 +15,7 @@ import sys
 
 def main(argv):
     fileWithIperfRaw = argv[1]
-    fileWithResults = "iper.log"
+    fileWithResults = "iperf.log"
     try:
         os.remove(fileWithResults)
     except OSError:
