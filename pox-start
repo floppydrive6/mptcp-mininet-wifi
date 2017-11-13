@@ -1,1 +1,4 @@
-./pox.py forwarding.l2_learning openflow.spanning_tree --hold-down log.level --DEBUG samples.pretty_log openflow.discovery host_tracker info.packet_dump
+sudo ./pox.py forwarding.l2_learning openflow.spanning_tree --hold-down log.level --DEBUG samples.pretty_log openflow.discovery host_tracker info.packet_dump
+
+# w/ debug turned off
+sudo ./pox.py forwarding.l2_learning openflow.spanning_tree --hold-down openflow.discovery host_tracker
