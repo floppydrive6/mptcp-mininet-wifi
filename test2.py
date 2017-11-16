@@ -37,6 +37,8 @@ def topology(pathmanager, scheduler):
         'sta1', wlans=2, ip='10.0.0.10/8', position='49,10,0')
     sta2 = net.addStation(
         'sta2', wlans=1, ip='192.168.0.20/24', position='51,10,0')
+    sta3 = net.addStation(
+        'sta3', wlans=1, ip='192.168.0.30/24', position='49,10,0')
     ap2 = net.addAccessPoint('ap2', mac='00:00:00:00:00:02', equipmentModel='TLWR740N',
                              protocols='OpenFlow10', ssid='ssid_ap2', mode='n', channel='1', position='55,20,0')
     ap3 = net.addAccessPoint('ap3', mac='00:00:00:00:00:03', equipmentModel='TLWR740N',
@@ -57,8 +59,9 @@ def topology(pathmanager, scheduler):
     net.addLink(ap2, sta1)
     net.addLink(ap3, sta1)
     net.addLink(ap3, sta2)
-    net.addLink(ap2, h4, bw=100)
-    net.addLink(ap3, h5, bw=100)  #
+    net.addLink(ap3, sta3)
+    net.addLink(ap2, h4, bw=1000)
+    net.addLink(ap3, h5, bw=1000)  #
     net.addLink(s6, h4, bw=1000)
     net.addLink(s6, h5, bw=1000)  #
     net.addLink(s6, s7, bw=1000)  #
@@ -90,6 +93,9 @@ def topology(pathmanager, scheduler):
     sta2.cmd('ifconfig sta2-wlan0 192.168.0.20/24')
     sta2.cmd('ip route add default scope global nexthop via 192.168.0.254 dev sta2-wlan0')
 
+    sta3.cmd('ifconfig sta3-wlan0 192.168.0.30/24')
+    sta3.cmd('ip route add default scope global nexthop via 192.168.0.254 dev sta3-wlan0')
+
     print "*** Starting network"
     net.build()
     c11.start()
@@ -106,11 +112,11 @@ def topology(pathmanager, scheduler):
     h4.cmd('sysctl -w net.ipv4.ip_forward=1')
     h5.cmd('sysctl -w net.ipv4.ip_forward=1')
 
-    name_postfix = pathmanager + '_' + scheduler
-    # set path manager
-    os.system('sysctl -w net.mptcp.mptcp_path_manager=' + pathmanager)
-    # set scheduler
-    os.system('sysctl -w net.mptcp.mptcp_scheduler=' + scheduler)
+    # name_postfix = pathmanager + '_' + scheduler
+    # # set path manager
+    # os.system('sysctl -w net.mptcp.mptcp_path_manager=' + pathmanager)
+    # # set scheduler
+    # os.system('sysctl -w net.mptcp.mptcp_scheduler=' + scheduler)
     #  wait for setting mptcp options
     sleep(2)
 
