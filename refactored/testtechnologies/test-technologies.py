@@ -58,6 +58,15 @@ def topology(pathmanager, scheduler):
     net.addLink(s8, s9, bw=1000)
     net.addLink(s9, h10, bw=1000)
 
+    print "*** Starting network"
+    net.build()
+    c11.start()
+    s6.start([c11])
+    s7.start([c11])
+    s8.start([c11])
+    s9.start([c11])
+    ap2.start([c11])
+    
     h4.cmd('ifconfig h4-eth1 192.168.1.1/24')
     h5.cmd('ifconfig h5-eth1 192.168.1.2/24')
 
@@ -92,15 +101,6 @@ def topology(pathmanager, scheduler):
     sta1.cmd('ip route add default scope global nexthop via 192.168.2.254 dev sta1-eth2')
     #sta1.cmd('iw dev sta1-wlan0 disconnect')
     #sta1.cmd('ifconfig sta1-eth1 down')
-
-    print "*** Starting network"
-    net.build()
-    c11.start()
-    s6.start([c11])
-    s7.start([c11])
-    s8.start([c11])
-    s9.start([c11])
-    ap2.start([c11])
 
     h10.cmd('ip route add 10.0.0.0/8 via 192.168.1.1')
     h10.cmd('ip route add 192.168.0.0/24 via 192.168.1.2')
