@@ -67,6 +67,11 @@ def topology(pathmanager, scheduler):
     
     # print"*** Plot graph ***"
     # net.plotGraph(max_x=100, max_y=100)
+    
+    net.startMobility(time=0)
+    net.mobility(sta1, 'start', time=32, position='30.0,10.0,0.0')
+    net.mobility(sta1, 'stop', time=132, position='90.0,30.0,0.0')
+    net.stopMobility(time=133)
 
     print "*** Starting network"
     net.build()
@@ -125,11 +130,6 @@ def topology(pathmanager, scheduler):
     sleep(2)
 
     print "starting simulation for path_manager: ", pathmanager, " and scheduler: ", scheduler
-
-    net.startMobility(time=0)
-    net.mobility(sta1, 'start', time=20, position='30.0,10.0,0.0')
-    net.mobility(sta1, 'stop', time=120, position='90.0,30.0,0.0')
-    net.stopMobility(time=120)
 
     h10.cmd('iperf -s -i 1 >> testmobility/' + FOLDER_NAME +
             '/server/server_' + name_postfix + '.log &')
