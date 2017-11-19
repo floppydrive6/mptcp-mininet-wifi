@@ -62,7 +62,20 @@ def topology(pathmanager, scheduler):
     net.addLink(s7, s9, bw=1000)  #
     net.addLink(s8, s9, bw=1000)
     net.addLink(s9, h10, bw=1000)
+    
+    print"*** Plot graph ***"
+    net.plotGraph(max_x=100, max_y=100)
 
+    print "*** Starting network"
+    net.build()
+    c11.start()
+    s6.start([c11])
+    s7.start([c11])
+    s8.start([c11])
+    s9.start([c11])
+    ap2.start([c11])
+    ap3.start([c11])
+    
     h4.cmd('ifconfig h4-eth1 192.168.1.1/24')
     h5.cmd('ifconfig h5-eth1 192.168.1.2/24')
 
@@ -83,16 +96,6 @@ def topology(pathmanager, scheduler):
 
     sta1.cmd('ip route add default scope global nexthop via 10.0.0.254 dev sta1-wlan0')
 
-    print "*** Starting network"
-    net.build()
-    c11.start()
-    s6.start([c11])
-    s7.start([c11])
-    s8.start([c11])
-    s9.start([c11])
-    ap2.start([c11])
-    ap3.start([c11])
-
     h10.cmd('ip route add 10.0.0.0/8 via 192.168.1.1')
     h10.cmd('ip route add 192.168.0.0/24 via 192.168.1.2')
 
@@ -108,9 +111,6 @@ def topology(pathmanager, scheduler):
     sleep(2)
 
     print "starting simulation for path_manager: ", pathmanager, " and scheduler: ", scheduler
-
-    print"*** Plot graph ***"
-    net.plotGraph(max_x=100, max_y=100)
 
     print "*** Running CLI"
     CLI(net)
